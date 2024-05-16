@@ -87,7 +87,7 @@ function create() {
         gameState.pelletsLoop.destroy();
         this.physics.pause();
         gameState.enemyVelocity = 1;
-        this.add.text(180, 200, 'Game Over\n Click to restart!');
+        this.add.text(180, 200, 'Game Over!');
     })
 
     // TODO: Firing back
@@ -102,7 +102,7 @@ function create() {
         gameState.active = false;
         gameState.enemyVelocity = 1;
         this.physics.pause();
-        this.add.text(180, 200, 'Game Over\n Click to restart!');
+        this.add.text(180, 200, 'Game Over!');
     })
 
 }
